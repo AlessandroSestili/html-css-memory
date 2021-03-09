@@ -114,12 +114,18 @@ h2 {
 
     margin-right: calc(20% / 3);
     border-radius: 10px;
-
-    background-image: url("img/noun_air_balloon_3134741.png");
     background-color: white;
     background-repeat: no-repeat;
-    background-size: 70%;
- }
+}
+
+.show > * {
+    display: block;
+
+    width: 80%;
+
+    position: relative;
+    transform: translateX(0%);
+}
 
 
 
